@@ -39,7 +39,7 @@ body.in-maintenance #branding {
   border: 1px solid #edebeb;
   margin: 0;
   padding: 30px 40px;
-  width: 960px;
+  width: 100%;
 }
 body.in-maintenance #branding h1.page-title {
   color: #747474;
@@ -49,7 +49,7 @@ body.in-maintenance #branding h1.page-title {
   font-weight: 100;
   line-height: 1em;
   padding: 10px 0;
-  width: 550px;
+  width: 66%;
 }
 body.in-maintenance #page {
   -moz-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.28);
@@ -64,7 +64,6 @@ body.in-maintenance #page {
   width: 960px;
   overflow: hidden;
   padding: 40px;
-  margin-top: 80px;
 }
 body.in-maintenance .page-wrapper {
   padding: 40px;
@@ -77,9 +76,6 @@ body.in-maintenance .logo-wrapper {
 body.in-maintenance #logo {
   margin: 0;
   max-width: 100%;
-}
-body.in-maintenance #sidebar-first {
-  width: 270px;
 }
 body.in-maintenance fieldset .fieldset-wrapper,
 body.in-maintenance fieldset.collapsible {

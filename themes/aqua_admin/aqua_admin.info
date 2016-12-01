@@ -1,9 +1,13 @@
 name = Aqua Admin Theme
 description = A subtheme of Shiny customized for Studio Aqua's purpose.
 core = 7.x
-base theme = shiny
 
+stylesheets[screen][] = css/reset.css
+stylesheets[screen][] = css/style.css
+; Contrib Module Admin Styles
+stylesheets[screen][] = css/contrib.css
 ; Install and Maintenance Pages
+stylesheets[all][] = css/shiny.css
 stylesheets[all][] = css/aqua_admin.css
 
 settings[shortcut_module_link] = 1
