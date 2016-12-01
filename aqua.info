@@ -1,0 +1,64 @@
+name = Aqua
+description = This is the basecode for developing a multilingual website. Studio Aqua has choose and pre-configured the best modules for this purpose.
+core = 7.x
+distribution_name = Aqua
+exclusive = 1
+
+; Install necessary core modules.
+dependencies[] = block
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = field_ui
+dependencies[] = file
+
+; Install contrib dependencies.
+dependencies[] = ctools
+dependencies[] = date
+dependencies[] = date_popup
+dependencies[] = date_api
+dependencies[] = entity
+dependencies[] = entity_token
+dependencies[] = message
+dependencies[] = message_notify
+dependencies[] = rules
+dependencies[] = rules_admin
+dependencies[] = views
+dependencies[] = views_ui
+
+; Install multilingual contribs.
+dependencies[] = i18n
+dependencies[] = i18n_translation
+dependencies[] = i18n_field
+dependencies[] = i18n_menu
+dependencies[] = entity_translation
+dependencies[] = title
+dependencies[] = variable
+
+; Install contribs for aqua basic configuration.
+dependencies[] = adminimal_admin_menu
+dependencies[] = module_filter
+dependencies[] = image_delta_formatter
+dependencies[] = taxonomy_menu
+dependencies[] = libraries
+dependencies[] = mimemail_compress
+dependencies[] = pathauto
+dependencies[] = inline_entity_form
+dependencies[] = entityreference
+dependencies[] = views_megarow
+dependencies[] = uuid_features
+dependencies[] = strongarm
+
+; Custom dependencies.
+dependencies[] = aquabasic
+
+; System Requirements.
+php_memory_limit = 128M
+
