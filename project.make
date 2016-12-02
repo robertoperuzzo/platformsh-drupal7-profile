@@ -77,6 +77,16 @@ projects[devel][version] = "1.5"
 projects[node_export][version] = "3.1"
 projects[node_clone][version] = "1.0"
 
+; Insight
+projects[site_audit][version] = "1.16"
+projects[stacksight][version] = "1.95"
+
+; Security
+projects[security_review][version] = "1.2"
+projects[hacked][version] = "2.0-beta6"
+projects[seckit][version] = "1.9"
+
+
 ; Aqua organisms
 ;----------------
 ; Forms
