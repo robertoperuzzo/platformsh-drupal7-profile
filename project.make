@@ -41,60 +41,44 @@ projects[field_group][version] = "1.5"
 projects[menu_target][version] = "1.4"
 projects[admin_menu][version] = "3.0-rc5"
 projects[adminimal_admin_menu][version] = "1.7"
-projects[taxonomy_menu][version] = "1.5"
+;projects[taxonomy_menu][version] = "1.5"
 
 ; Internationalization and Localization
-projects[i18n][version] = "1.13"
-projects[title][version] = "1.0-alpha7"
-projects[title][patches][0] = "http://drupal.org/files/title-translation_overwrite-1269076-35.patch"
-projects[entity_translation][version] = "1.0-beta4"
-projects[entity_translation][patch][] = "https://www.drupal.org/files/issues/entity_translation-more-defensive-code.patch"
+projects[i18n][version] = "1.14"
+projects[title][version] = "1.0-alpha8"
+projects[entity_translation][version] = "1.0-beta5"
 
 ; Wysiwyg editor
-projects[ckeditor_link][version] = "2.3"
-projects[ckeditor][version] = "1.16"
-projects[imce][version] = "1.9"
-libraries[ckeditor][type] = "libraries"
-libraries[ckeditor][download][type] = "file"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.5.3/ckeditor_4.5.3_standard.zip"
+projects[ckeditor][version] = "1.17"
+projects[ckeditor_link][version] = "2.4"
+projects[imce][version] = "1.10"
 
 ; Media
 projects[picture][version] = "2.13"
-projects[media_browser_plus][version] = "3.0-beta3"
-projects[retina_images][version] = "1.0-beta4"
-projects[imageblock][version] = "1.3"
-projects[image_delta_formatter][version] = "1.0-rc1"
+projects[media_browser_plus][version] = "3.0-beta4"
+projects[retina_images][version] = "1.0-beta5"
+;projects[image_delta_formatter][version] = "1.0-rc1"
 
 ; Socials
-projects[fb_likebox][version] = "2.2"
+;projects[fb_likebox][version] = "2.2"
 
 ; This module helps you to create your custom taxnonomy term view.
-projects[tvi][version] = "1.0-beta5"
+;projects[tvi][version] = "1.0"
 
 ; Layouts
-projects[context][version] = "3.6"
-projects[context_omega][version] = "1.1"
+projects[context][version] = "3.7"
+;projects[context_omega][version] = "1.1"
 ;projects[panels][version] = "3.5"
 ;projects[panels_everywhere][version] = "1.0-rc2"
-projects[ds][version] = "2.11"
-
+;projects[ds][version] = "2.11"
 
 ; Development modules
 projects[devel][version] = "1.5"
-projects[devel][subdir] = development
-projects[node_export][version] = "3.0"
-projects[node_export][subdir] = development
-projects[node_clone][version] = "1.0-rc2"
-projects[node_clone][subdir] = development
+projects[node_export][version] = "3.1"
+projects[node_clone][version] = "1.0"
 
 ; Aqua organisms
 ;----------------
-; Base
-projects[aquabasic][download][type] = "git"
-projects[aquabasic][download][url] = "git://github.com/studioaqua/aquabasic.git"
-projects[aquabasic][download][branch] = "master"
-projects[aquabasic][type] = "module"
-projects[aquabasic][subdir] = aqua
 ; Forms
 projects[aquaform][download][type] = "git"
 projects[aquaform][download][url] = "https://github.com/studioaqua/aquaform.git"
@@ -110,15 +94,17 @@ projects[aquamarketing][subdir] = aqua
 
 ; Themes
 ;---------
-projects[shiny][type] = theme
-projects[shiny][version] = "1.7"
 projects[omega][type] = theme
 projects[omega][version] = "4.4"
+projects[bootstrap][type] = theme
+projects[bootstrap][version] = "3.10"
 projects[adminimal_theme][type] = theme
 projects[adminimal_theme][version] = "1.24"
-; Aqua admin theme
-projects[aqua_admin][download][type] = "git"
-projects[aqua_admin][download][url] = "https://github.com/studioaqua/aqua_admin.git"
-projects[aqua_admin][download][branch] = "master"
-projects[aqua_admin][type] = "theme"
-projects[aqua_admin][subdir] = aqua
+
+
+; Libraires
+;------------
+; CKEditor
+libraries[ckeditor][type] = "libraries"
+libraries[ckeditor][download][type] = "file"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.6.0/ckeditor_4.6.0_full.zip"
