@@ -96,6 +96,27 @@ hooks:
     deploy: |
       cd public
       drush -y updatedb
+      if [ $PLATFORM_ENVIRONMENT = "master" ]; then
+        # Use Drush to disable the Devel module on the Master environment.
+        drush dis devel -y
+        drush dis node_export -y
+        drush dis node_clone -y
+        drush dis stacksight -y
+        drush dis security_review -y
+        drush dis site_audit -y
+        drush dis hacked -y
+      else
+        # Use Drush to enable the Devel module on other environments.
+        drush en devel -y
+        drush en node_export -y
+        drush en node_clone -y
+        drush en stacksight -y
+        drush en security_review -y
+        drush en site_audit -y
+        drush en hacked -y
+        # Sanitize your database and get rid of sensitive information from Master environment.
+        # drush -y sql-sanitize --sanitize-email=user_%uid@example.com --sanitize-password=custompassword
+      fi
 
 # The configuration of scheduled execution.
 crons:
