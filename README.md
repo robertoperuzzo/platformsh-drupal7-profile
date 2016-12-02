@@ -42,13 +42,35 @@ modules/
 themes/
          /aqua_admin
                 /css
+                        /aqua_admin.css
+                        /contrib.css
+                        /reset.css
+                        /shiny.css
+                        /style.css
                 /images
+                        /small-pointer.png
+                        /tasks-active.png
+                        /taskc-complete.png
+                        /wizard-bg.png
+                        /wizard-bg2.png
                 /templates
+                        /maintenance-page.tpl.php
                 /aqua_admin.info
                 logo.png
          /README.txt
+transaltions/
+         /README.txt
+.editorconfig
 .platform.app.yaml
+aqua.info
+aqua.install
+aqua.profile
+drushrc.php
+project-core.make
 project.make
+README.md
+settings.php
+settings.platform.sh.php
 ```
 
 The `.platform` directory and `.platform.app.yaml` file are the Platform.sh-specific configuration.  Please see the [documentation](https://docs.platform.sh/) for more information on those.
