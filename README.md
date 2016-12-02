@@ -33,33 +33,33 @@ and borrow whatever code is needed. The most important parts are the
 This is the whole layout of the repository (it will still make for a perfectly functional web site on http://platform.sh !)
 ```
 .platform/
-         /routes.yaml
-         /services.yaml
+    /routes.yaml
+    /services.yaml
 libraries/
-         /README.txt
+    /README.txt
 modules/
-         /README.txt
+    /README.txt
 themes/
-         /aqua_admin
-                /css
-                        /aqua_admin.css
-                        /contrib.css
-                        /reset.css
-                        /shiny.css
-                        /style.css
-                /images
-                        /small-pointer.png
-                        /tasks-active.png
-                        /taskc-complete.png
-                        /wizard-bg.png
-                        /wizard-bg2.png
-                /templates
-                        /maintenance-page.tpl.php
-                /aqua_admin.info
-                logo.png
-         /README.txt
+    /aqua_admin
+        /css
+            /aqua_admin.css
+            /contrib.css
+            /reset.css
+            /shiny.css
+            /style.css
+        /images
+            /small-pointer.png
+            /tasks-active.png
+            /taskc-complete.png
+            /wizard-bg.png
+            /wizard-bg2.png
+        /templates
+            /maintenance-page.tpl.php
+        /aqua_admin.info
+        logo.png
+    /README.txt
 transaltions/
-         /README.txt
+    /README.txt
 .editorconfig
 .platform.app.yaml
 aqua.info
