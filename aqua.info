@@ -45,8 +45,6 @@ dependencies[] = variable
 ; Install contribs for aqua basic configuration.
 dependencies[] = adminimal_admin_menu
 dependencies[] = module_filter
-dependencies[] = image_delta_formatter
-dependencies[] = taxonomy_menu
 dependencies[] = libraries
 dependencies[] = mimemail_compress
 dependencies[] = pathauto
@@ -55,9 +53,6 @@ dependencies[] = entityreference
 dependencies[] = views_megarow
 dependencies[] = uuid_features
 dependencies[] = strongarm
-
-; Custom dependencies.
-dependencies[] = aquabasic
 
 ; System Requirements.
 php_memory_limit = 128M
