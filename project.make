@@ -54,7 +54,8 @@ projects[imce][version] = "1.10"
 
 ; Media
 projects[picture][version] = "2.13"
-projects[media_browser_plus][version] = "3.0-beta4"
+projects[media][version] = "2.0-beta14"
+;projects[media_browser_plus][version] = "3.0-beta4"
 projects[retina_images][version] = "1.0-beta5"
 ;projects[image_delta_formatter][version] = "1.0-rc1"
 
