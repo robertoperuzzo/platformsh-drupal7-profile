@@ -35,6 +35,7 @@ projects[jquery_update][version] = "2.7"
 projects[shs][version] = "1.6"
 projects[link][version] = "1.4"
 projects[field_group][version] = "1.5"
+projects[path_breadcrumbs][version] = "3.3"
 
 ; Menu
 projects[menu_target][version] = "1.4"
