@@ -78,6 +78,7 @@ projects[context][version] = "3.7"
 projects[devel][version] = "1.5"
 projects[node_export][version] = "3.1"
 projects[node_clone][version] = "1.0"
+projects[diff][version] = "3.3"
 
 ; Insight
 projects[site_audit][version] = "1.16"
