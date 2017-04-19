@@ -89,6 +89,9 @@ projects[security_review][version] = "1.2"
 projects[hacked][version] = "2.0-beta6"
 projects[seckit][version] = "1.9"
 
+; Backup
+projects[backup_migrate][version] = "3.1"
+projects[elysia_cron][version] = "2.4"
 
 ; Aqua organisms
 ;----------------
